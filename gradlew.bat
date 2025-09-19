@@ -1,2 +1,3 @@
 @echo off
-java -jar gradle\wrapper\gradle-wrapper.jar %*
+set DIR=%~dp0
+java -jar "%DIR%\gradle\wrapper\gradle-wrapper.jar" %*
